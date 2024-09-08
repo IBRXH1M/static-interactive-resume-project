@@ -1,0 +1,125 @@
+/* styles.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 30px;
+  color: #343a40;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #007bff;
+  object-fit: cover;
+}
+
+header h1 {
+  margin: 20px 0 10px;
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+header a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #495057;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+p, ul {
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  padding: 10px;
+  background-color: #f1f3f5;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header img {
+    width: 120px;
+    height: 120px;
+  }
+}
